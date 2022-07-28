@@ -4,5 +4,5 @@ https://github.com/suphiyasin/instagram-username-finder Projesinin hatalarının
 
 # Kurulum
 
-<C>:\xampp\htdocs
+C:\xampp\htdocs
   İndirdiğimiz dosyaları atın ve xampp üzerinden çalıştırın.
