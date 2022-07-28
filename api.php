@@ -39,7 +39,7 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 
 $result = curl_exec($ch);
 $kahka = json_decode($result, true);
-if($kahka["status"] === "fail") return print_r($kahka["message"]);
+if($kahka["status"] === "fail") return print_r($kahka["message"]); // eğer hiç arama yapmazsa silin
 
 $code = $kahka['errors']['username']['0']['code'];
 if($code){
